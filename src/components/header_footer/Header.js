@@ -15,8 +15,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import SideDrawer from "./SideDrawer";
-import Button from '@material-ui/core/Button';
-
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -222,9 +221,13 @@ export default function PrimarySearchAppBar() {
               aria-haspopup="true"
               onClick={handleProfileMenuOpen}
               color="inherit"
-            >         
-              <Button color="inherit" style={{marginRight: "3px"}}>Home</Button>
-              <Button color="inherit"style={{marginRight: "10px"}}>About Us</Button>
+            >
+              <Button color="inherit" style={{ marginRight: "3px" }}>
+                Home
+              </Button>
+              <Button color="inherit" style={{ marginRight: "10px" }}>
+                About Us
+              </Button>
               <AccountCircle />
             </IconButton>
           </div>
@@ -239,7 +242,6 @@ export default function PrimarySearchAppBar() {
               <MoreIcon />
             </IconButton>
           </div>
- 
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
