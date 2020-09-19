@@ -1,3 +1,19 @@
+/*
+  =================
+  General
+  =================
+*/
+body {
+  margin: 0;
+  background-color: #a1f0b4;
+}
+
+/*
+  =================
+  Home page Slider
+  =================
+*/
+
 .slider_wrapper {
   height: 500px;
   overflow: hidden;
@@ -7,10 +23,11 @@
   background-size: cover !important;
 }
 
-body {
-  margin: 0;
-  background-color: #a1f0b4;
-}
+/*
+  =================
+  Green India Clean India Homepage
+  =================
+*/
 
 .green_image {
   flex-grow: 1;
@@ -35,4 +52,52 @@ body {
   font-family: "Lobster", cursive;
   font-size: 30px;
   color: #2aa146;
+}
+
+/*
+  =================
+  Discounts Homepage
+  =================
+*/
+
+.offer_wrapper {
+  margin-top: 50px;
+}
+
+.offer_header {
+  border: 1px solid blue;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 60px;
+  color: #00751c;
+}
+
+.offer_content {
+  border: 1px solid blue;
+  line-height: 5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.offer_content ul {
+  list-style-type: none;
+  margin: 0 0;
+  padding-left: 0px;
+}
+
+.offer_content ul li.even {
+  background-color: #63ea83;
+}
+
+.offer_content ul li.odd {
+  background-color: #98ffb0;
+}
+
+.offer_content ul li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
