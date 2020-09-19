@@ -9,4 +9,30 @@
 
 body {
   margin: 0;
+  background-color: #a1f0b4;
+}
+
+.green_image {
+  flex-grow: 1;
+  margin-left: 70px;
+  min-width: 580px;
+}
+
+.green_content {
+  flex-grow: 1;
+}
+
+.green_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.green_typing {
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: #2aa146;
 }
