@@ -4,6 +4,7 @@ import Footer from "../../header_footer/Footer";
 import Slider from "./Slider";
 import GreenClean from "./GreenIndiaImg";
 import Offers from "./Offers";
+import Deals from "./Deals";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <Slider />
       <GreenClean />
       <Offers />
+      <Deals />
       <div style={{ height: "500px" }}></div>
       <Footer />
     </div>

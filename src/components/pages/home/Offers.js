@@ -7,9 +7,7 @@ function Offers() {
       <div className="offer_content">
         <ul>
           <li className="odd">
-            <a href="#">
-              <span>Offer1 </span>
-            </a>
+            <a href="#">Offer1</a>
           </li>
           <li className="even">
             <a href="#">Offer2</a>
