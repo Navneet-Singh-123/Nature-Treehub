@@ -113,22 +113,9 @@ export default function PrimarySearchAppBar() {
           <Typography className={classes.title} variant="h6" noWrap>
             Nature
           </Typography>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ "aria-label": "search" }}
-            />
-          </div>
 
           <div className={classes.grow} />
-          <Link to="/about">About Us</Link>
+          <Link to="/">Home</Link>
           <Link to="/login">Login</Link>
           <Link to="/register">Sign up</Link>
         </Toolbar>
