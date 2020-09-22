@@ -5,6 +5,7 @@ import Slider from "./Slider";
 import GreenClean from "./GreenIndiaImg";
 import Offers from "./Offers";
 import Deals from "./Deals";
+import FestivalSale from "./FestivalSale";
 
 function HomePage() {
   return (
@@ -14,7 +15,7 @@ function HomePage() {
       <GreenClean />
       <Offers />
       <Deals />
-      <div style={{ height: "500px" }}></div>
+      <FestivalSale />
       <Footer />
     </div>
   );
