@@ -10,6 +10,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import SideDrawer from "./SideDrawer";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
+import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -110,9 +111,11 @@ export default function PrimarySearchAppBar() {
             open={drawerOpen}
             onClose={(value) => toggleDrawer(value)}
           />
-          <Typography className={classes.title} variant="h6" noWrap>
-            Nature
-          </Typography>
+          <Link to="/" className="brand_link">
+            <Typography className={classes.title} variant="h6" noWrap>
+              Nature
+            </Typography>
+          </Link>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
@@ -128,9 +131,15 @@ export default function PrimarySearchAppBar() {
           </div>
 
           <div className={classes.grow} />
-          <Link to="/about">About Us</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/register">Sign up</Link>
+          <Link to="/about" className="nav_links">
+            About Us
+          </Link>
+          <Link to="/login" className="nav_links">
+            Login
+          </Link>
+          <Link to="/register" className="nav_links">
+            Sign up
+          </Link>
         </Toolbar>
       </AppBar>
     </div>

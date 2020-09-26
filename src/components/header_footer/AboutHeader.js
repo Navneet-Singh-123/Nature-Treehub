@@ -110,14 +110,13 @@ export default function PrimarySearchAppBar() {
             open={drawerOpen}
             onClose={(value) => toggleDrawer(value)}
           />
-          <Typography className={classes.title} variant="h6" noWrap>
-            Nature
-          </Typography>
+          <Link to="/" className="brand_link">
+            <Typography className={classes.title} variant="h6" noWrap>
+              Nature
+            </Typography>
+          </Link>
 
           <div className={classes.grow} />
-          <Link to="/">Home</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/register">Sign up</Link>
         </Toolbar>
       </AppBar>
     </div>

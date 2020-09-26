@@ -195,3 +195,52 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+/*
+================
+Navbar Links
+================
+*/
+
+.brand_link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_links {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.nav_links:hover {
+  color: green;
+}
+
+/*
+================
+About Page
+================
+*/
+
+.about_content_wrapper {
+  margin: 50px 200px;
+}
+
+.about_heading {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
+  color: #57d702;
+}
+
+.about_heading span {
+  color: white;
+}
+
+.about_content {
+  padding: 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: green;
+}

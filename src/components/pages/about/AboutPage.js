@@ -1,12 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import AboutHeader from "../../header_footer/AboutHeader";
+import Footer from "../../header_footer/Footer";
+import Content from "./Content";
 
 function AboutPage() {
   return (
     <div>
       <AboutHeader />
-      About Page
+      <Content />
+      <Footer />
     </div>
   );
 }
