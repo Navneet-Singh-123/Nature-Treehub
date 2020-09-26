@@ -1,23 +1,16 @@
 import React, { useState, useContext, useEffect } from "react";
-import AuthContext from "../../../context/auth/authContext";
+import LoginHeader from "../../header_footer/GeneralHeader";
+import Footer from "../../header_footer/Footer";
+import Content from "./Content";
 
 const Login = (props) => {
-  const authContext = useContext(AuthContext);
-
-  const [user, setUser] = useState({
-    email: "",
-    password: "",
-  });
-
-  const { email, password } = user;
-
-  const onChange = (e) =>
-    setUser({
-      ...user,
-      [e.target.name]: e.target.value,
-    });
-
-  return <div>Login Page</div>;
+  return (
+    <div>
+      <LoginHeader />
+      <Content />
+      <Footer />
+    </div>
+  );
 };
 
 export default Login;

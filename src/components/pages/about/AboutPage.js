@@ -1,5 +1,5 @@
 import React from "react";
-import AboutHeader from "../../header_footer/AboutHeader";
+import AboutHeader from "../../header_footer/GeneralHeader";
 import Footer from "../../header_footer/Footer";
 import Content from "./Content";
 
