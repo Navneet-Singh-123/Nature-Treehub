@@ -8,8 +8,8 @@ const Content = () => {
         <div className="login_header">
           <h1>Login</h1>
         </div>
-        <div className="login_container">
-          <label for="uname" className="login_input">
+        <form className="login_container">
+          <label htmlfor="uname" className="login_input">
             <b>Username</b>
           </label>
           <input
@@ -19,7 +19,7 @@ const Content = () => {
             required
           />
 
-          <label for="psw" className="login_input">
+          <label htmlfor="psw" className="login_input">
             <b>Password</b>
           </label>
           <input
@@ -39,7 +39,7 @@ const Content = () => {
               <Link className="login_password_forgot">Forgot Password?</Link>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );

@@ -286,7 +286,7 @@ Login Page
 }
 
 .login_container input[type="text"],
-input[type="password"] {
+.login_container input[type="password"] {
   width: 100%;
   box-sizing: border-box;
   margin: 8px 0;
@@ -331,4 +331,65 @@ input[type="password"] {
   color: green;
   text-decoration: none;
   font-size: 18px;
+}
+
+/*
+================
+Register Page
+================
+*/
+
+.register_wrapper {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register_header {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
+  color: #57d702;
+}
+
+.register_container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.register_container input {
+  width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px 0;
+  border: none;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  outline: none;
+}
+
+.register_container button {
+  background-color: #39cc3d;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 0;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.register_container .register_input {
+  color: green;
+  padding: 2px;
+  font-size: 20px;
 }
