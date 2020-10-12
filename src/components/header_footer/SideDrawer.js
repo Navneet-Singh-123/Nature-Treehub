@@ -6,6 +6,9 @@ import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
+import { Link } from "react-router-dom";
+import '../../App.css'
+
 
 function SideDrawer(props) {
   const [openPlant, setOpenPlant] = React.useState(true);
@@ -32,8 +35,8 @@ function SideDrawer(props) {
         <Collapse in={openPlant} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
             <ListItem button>
-              <ListItemText primary="Home Decoration" />
-            </ListItem>
+              <Link to="/home_decoration"><ListItemText primary="Home Decoration" className="side_link"/></Link>
+            </ListItem> 
             <ListItem button>
               <ListItemText primary="Garden Plants" />
             </ListItem>
