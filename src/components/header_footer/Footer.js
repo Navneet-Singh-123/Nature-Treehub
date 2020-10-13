@@ -43,9 +43,8 @@ function Footer() {
           <h2>Quick Links</h2>
           <ul>
             <Link to="/team" className="link"><li>Team</li></Link>
-            <a href="#" className="link">
-              <li>FAQ and Guidlines</li>
-            </a>
+            <Link to="/faq" className="link"><li>FAQ and Guidlines</li></Link>
+            
             <a href="#" className="link">
               <li>Help</li>
             </a>

@@ -472,3 +472,32 @@ TEAM
 .member img {
   border-radius: 20px;
 }
+
+/*
+================
+Faq and guildlines
+================
+*/
+
+.faq_wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.faq_header{
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
+  color: #57d702;
+}
+
+.faq_content{
+  border: 1px solild blue;
+  text-align: center;
+  margin: 20px 50px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: green;
+}
