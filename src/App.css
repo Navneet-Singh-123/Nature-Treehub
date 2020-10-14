@@ -501,3 +501,30 @@ Faq and guildlines
   font-size: 20px;
   color: green;
 }
+
+/*
+================
+Notifications
+================
+*/
+
+.notification_wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.notification_header{
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
+  color: #57d702;
+}
+
+.notification_content{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: green;
+  margin-left: 20px;
+}
