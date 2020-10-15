@@ -9,6 +9,7 @@ import HomeDecoration from './components/pages/SideDrawer/Plants/HomeDecoration'
 import Team from './components/pages/Footer/team';
 import Faq from './components/pages/Footer/faq';
 import Notification from './components/pages/Footer/Notification';
+import Gallery from './components/pages/Footer/Gallery';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/team" component={Team}></Route>
           <Route exact path="/faq" component={Faq}></Route>
           <Route exact path="/notification" component={Notification}></Route>
+          <Route exact path="/gallery" component={Gallery}></Route>
           <Route exact path="/home_decoration" component={HomeDecoration}></Route>
         </Switch>
       </div>

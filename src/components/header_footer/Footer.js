@@ -45,10 +45,8 @@ function Footer() {
             <Link to="/team" className="link"><li>Team</li></Link>
             <Link to="/faq" className="link"><li>FAQ and Guidlines</li></Link>
             <Link to="/notification" className="link"><li>Notifications</li></Link>
-          
-            <a href="#" className="link">
-              <li>Gallery</li>
-            </a>
+            <Link to="/gallery" className="link"><li>Gallery</li></Link>
+    
             <a href="#" className="link">
               <li>Terms and Conditions</li>
             </a>
