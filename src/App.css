@@ -571,3 +571,30 @@ Gallery
 .gal_images img {
   border-radius: 20px;
 }
+
+/*
+================
+Terms and Conditions
+================
+*/
+
+.terms_wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.terms_heading{
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
+  color: #57d702;
+}
+
+.terms_content{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: green;
+}
+

@@ -46,10 +46,7 @@ function Footer() {
             <Link to="/faq" className="link"><li>FAQ and Guidlines</li></Link>
             <Link to="/notification" className="link"><li>Notifications</li></Link>
             <Link to="/gallery" className="link"><li>Gallery</li></Link>
-    
-            <a href="#" className="link">
-              <li>Terms and Conditions</li>
-            </a>
+            <Link to="/terms_conditions" className="link"><li>Terms and Conditions</li></Link>
           </ul>
         </div>
         <div className="footer_section contact_form">
